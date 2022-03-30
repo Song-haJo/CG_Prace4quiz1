@@ -9,8 +9,8 @@
 
 //Example
 function setup() {
-  background(0);
   createCanvas(600, 600);
+  background(0);
 }
 
 function draw() {
@@ -29,5 +29,5 @@ function draw() {
   ellipse(500, height/2, 100, 100); // Right circle: push() & pop() 외부의 원래 설정을 따릅니다.
 }
 
-//결과
-//좌측과 우측에 위치한 원들은 테두리가 없고 채우기 색이 흰색이지만, push() & pop() 사이의 가운데 원은 파란색 굵기 10의 테두리를 가지고 있으며 채우기 색이 없습니다.
+// 결과
+// 좌측과 우측에 위치한 원들은 테두리가 없고 채우기 색이 흰색이지만, push() & pop() 사이의 가운데 원은 파란색 굵기 10의 테두리를 가지고 있으며 채우기 색이 없습니다.
