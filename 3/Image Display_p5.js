@@ -7,6 +7,6 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 2000);
-  image(img, 0, 0);
+  createCanvas(1000, 1000);
+  image(img, 0, 0, 500, 900);   // 이미지의 좌측 상단 기준점 = (0, 0) / 이미지 크기 = 500 * 900
 }
